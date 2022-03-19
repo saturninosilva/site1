@@ -8,9 +8,42 @@ h1 {
 }
 h2 {
     font-size: 20px;
-    color: blue
+    color: red
+}
+a{
+    text-decoration: none;
+    color:orange;
+    background-color: yellow;
 }
 p {
     font-size: 15px;
     color: coral;
+
+}
+a:visited{
+    background-color: red
+    
+}
+a:hover{
+text-decoration: underline;
+text-emphasis-style: solid;
+text-decoration-color: green;
+}
+
+
+tbody{
+    font-size: 30px;
+}
+
+ tr{
+    background-color: gold;
+}
+tr:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+td{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
 }
