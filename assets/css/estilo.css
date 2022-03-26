@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(C:\Users\user\OneDrive\Documentos\VS Code trabalho\frontEnd\assets\fonts\Oswald-Medium);
+}
+body {
+    background-color: lightgreen;
+}
+h1 {
+    font-family: 'oswald';
+    font-size: 36px;
+    color: rgb(122, 141, 141);
+    text-align: center;
+}
+h2 {
+    font-family: 'oswald';
+    font-size: 20px;
+    color: red
+}
+a{
+    text-decoration: none;
+    color:orange;
+    background-color: transparent;
+}
+p {
+    font-size: 15px;
+    color: coral;
+
+}
+a:visited{
+    background-color: red
+    
+}
+a:hover{
+text-decoration: underline;
+text-emphasis-style: solid;
+text-decoration-color: green;
+}
+a:active{
+    background-color: red;
+}
+
+tbody{
+    font-size: 10px;
+}
+td{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
+}
+
+ tr{
+    background-color: gold;
+}
+tr:hover{
+    background-color:  #00FF00;
+    cursor: pointer;
+}
+
+tfoot{
+    font-size: 9px;
+    font-weight: 700;
+}
+ul{
+    /* list-style-type: square;
+    list-style-position: outside; */
+    list-style: square outside url("rocket-icon.png");
+}
+ul li{
+    color: blue;  
+  }
+
+ol{
+    list-style-type: lower-alpha;
+}
+ol li{
+    color: red;
+}
+ol li.item-impar{
+background-color: yellow;
+}
+ol li:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+div, article {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: #f5f5f5;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.img-destaque-materia{
+    width: 260px;
+    height: auto;
+    border-radius: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+}
+label{
+    /* width: 100px;
+    display: inline-block; */
+}

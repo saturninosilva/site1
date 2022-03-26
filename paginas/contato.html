@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Pagina de contato</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Página do Saturnino</h1>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="#">Noticias da semana</a></li>
+            <li><a href="paginas/contato.html">contatos</a></li>
+            <li><a href="#">sobre nós</a></li>
+        </ul>
+   </nav>
+
+   <div>
+       <h2>Preencha os campos para enviar uma mensagem</h2>
+       <form action="" method="post"> 
+           <label for="nome-do-remetente">nome</label>
+           <input type="text" id="nome-do-remetente" name="nome-do-remetente" />
+           <br />
+           <label>
+               Email
+               <input type="text" name="email-do-remetente" />
+           </label>
+           <br /><br />
+
+           preencha os campos de seu interesse: <br />
+           <input type="checkbox" name="interesse" value="programacao-backend" /> programacao-backend<br />
+           <input type="checkbox" name="interesse" value="programacao-frontEnd" /> programacao-frontEnd<br />
+           <input type="checkbox" name="interesse" value="infraestrutura" /> infraestrutura<br />
+           <input type="checkbox" name="interesse" value="redes" /> redes<br />
+           <input type="checkbox" name="interesse" value="gestao" /> gestao de projetos<br />
+
+           Voce gostaria de receber nossos emails? <br />
+           <input type="radio" name="receber-emails" value="sim" /> sim <br />
+           <input type="radio" name="receber-emails" value="nao" /> nao <br />
+           <input type="radio" name="receber-emails" value="talvez" /> talvez <br />
+           <br />
+
+           Qual é o seu estado? <br />
+           <select name="estado">
+               <option value="rj">Rio de Janeiro</option>
+               <option value="sp">São Paulo</option>
+               <option value="es">Espirito Santo</option>
+               <option value="mg">Minas Gerais</option>
+           </select>
+           <br />
+           <br />
+
+           Digite sua mensagem <br />
+           <textarea name="mensagem" cols="60" rows="10"></textarea>
+           <br />
+           <br />
+
+           <button type="submit">Enviar Mensagem</button>
+
+       </form>
+
+   </div>
+   
+</body>
+
+</html>
